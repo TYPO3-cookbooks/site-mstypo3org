@@ -6,7 +6,7 @@ description      "Installs/Configures physical host servers"
 long_description "Installs/Configures physical host servers"
 version          "1.0.0"
 
-recipe           "site-mstypo3org::default",  "Default recipe, only includes t3-base cookbook. Not really meant for direct inclusion"
+recipe           "site-mstypo3org::_common",  "Common functionality. Not really meant for direct inclusion"
 recipe           "site-mstypo3org::openvz",   "Manages OpenVZ host setup"
 recipe           "site-mstypo3org::kvm",      "Manages KVM host setup"
 

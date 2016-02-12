@@ -8,9 +8,10 @@ version          "1.0.0"
 
 recipe           "site-mstypo3org::default",  "Default recipe, only includes t3-base cookbook. Not really meant for direct inclusion"
 recipe           "site-mstypo3org::openvz",   "Manages OpenVZ host setup"
+recipe           "site-mstypo3org::kvm",      "Manages KVM host setup"
 
 supports         "debian"
 
 depends          "t3-base",    "~> 0.2.0"
 depends          "t3-openvz",  "~> 1.1.0"
-depends          "zabbix-custom-checks", "~> 0.2.0"
+depends          "t3-kvm",     "~> 0.1.0"

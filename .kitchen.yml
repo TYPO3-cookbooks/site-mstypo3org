@@ -26,3 +26,9 @@ suites:
     excludes:
       - debian-7.8
       - debian-8.2
+  - name: kvm
+    run_list:
+      - recipe[site-mstypo3org::kvm]
+    excludes:
+      - debian-6.0
+      - debian-7.8

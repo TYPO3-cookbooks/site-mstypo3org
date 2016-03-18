@@ -87,7 +87,7 @@ GRAPH
   runit (1.7.6)
     packagecloud (>= 0.0.0)
   screen (0.7.0)
-  site-mstypo3org (1.0.1)
+  site-mstypo3org (1.0.2)
     t3-base (~> 0.2.0)
     t3-kvm (~> 0.1.0)
     t3-openvz (~> 1.1.0)

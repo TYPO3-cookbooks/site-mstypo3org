@@ -8,6 +8,9 @@ include_recipe "#{cookbook_name}::_common"
 
 include_recipe "t3-kvm"
 
+
+package ["makepasswd", "virtinst"]
+
 #################################
 # Virt-installer (create new VMs)
 #################################

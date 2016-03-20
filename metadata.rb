@@ -4,7 +4,7 @@ maintainer_email "steffen.gebert@typo3.org"
 license          "Apache2"
 description      "Installs/Configures physical host servers"
 long_description "Installs/Configures physical host servers"
-version          "1.0.3"
+version          "1.0.4"
 
 recipe           "site-mstypo3org::_common",  "Common functionality. Not really meant for direct inclusion"
 recipe           "site-mstypo3org::openvz",   "Manages OpenVZ host setup"

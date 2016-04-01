@@ -9,7 +9,7 @@ include_recipe "#{cookbook_name}::_common"
 include_recipe "t3-kvm"
 
 
-package ["makepasswd", "virtinst"]
+package ["libvirt-bin", "makepasswd", "virtinst", "libguestfs-tools"]
 
 #################################
 # Virt-installer (create new VMs)
@@ -26,3 +26,6 @@ end
     to File.join(virt_path, script)
   end
 end
+
+
+# storage pool

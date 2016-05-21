@@ -11,6 +11,15 @@ include_recipe "t3-kvm"
 
 package ["libvirt-bin", "makepasswd", "virtinst", "libguestfs-tools"]
 
+users_sysadmins.each do |u|
+  # Add all users to the libvirtd group
+  group 'libvirt' do
+    action :modify
+    members u['id']
+    append true
+  end
+end
+
 #################################
 # Virt-installer (create new VMs)
 #################################

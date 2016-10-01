@@ -14,5 +14,5 @@ supports         "debian"
 
 depends          "t3-base",    "~> 0.2.0"
 depends          "t3-openvz",  "~> 1.1.0"
-depends          "t3-kvm",     "~> 0.1.0"
+depends          "t3-kvm"
 depends          "t3-tinc",    "~> 1.0.0"

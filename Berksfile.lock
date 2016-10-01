@@ -86,7 +86,7 @@ GRAPH
   screen (0.7.0)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
-  site-mstypo3org (1.0.6)
+  site-mstypo3org (1.0.7)
     t3-base (~> 0.2.0)
     t3-kvm (~> 0.1.0)
     t3-openvz (~> 1.1.0)

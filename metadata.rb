@@ -13,6 +13,6 @@ recipe           "site-mstypo3org::kvm",      "Manages KVM host setup"
 supports         "debian"
 
 depends          "t3-base",    "~> 0.2.0"
-depends          "t3-openvz",  "~> 1.1.0"
-depends          "t3-kvm"
+depends          "t3-openvz",  "~> 2.0.0"
+depends          "t3-kvm",     "~> 1.0.0"
 depends          "t3-tinc",    "~> 1.0.0"

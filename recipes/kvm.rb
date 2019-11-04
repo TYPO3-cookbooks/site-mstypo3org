@@ -26,7 +26,7 @@ end
 virt_path = "/usr/local/virtinstaller"
 
 git virt_path do
-  repository "https://github.com/TYPO3-infrastructure/virtinstaller"
+  repository "https://gitlab.typo3.org/server/virtinstaller.git"
 end
 
 %w{virt-install-debian}.each do |script|

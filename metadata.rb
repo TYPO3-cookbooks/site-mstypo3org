@@ -16,3 +16,6 @@ depends          "t3-base",    "~> 0.2.0"
 depends          "t3-openvz",  "~> 2.0.0"
 depends          "t3-kvm",     "~> 1.0.0"
 depends          "t3-tinc",    "~> 1.0.0"
+
+# For compatibility with Chef 12.x
+depends          "chef-sugar", "< 5.0.0"
